@@ -1,0 +1,20 @@
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+
+@import 'bootstrap';
+
+.md-container {
+	img {
+		max-width: 200px !important;
+	}
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	main {
+		flex-grow: 1;
+	}
+}
